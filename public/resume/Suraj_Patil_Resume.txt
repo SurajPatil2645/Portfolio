@@ -1,0 +1,64 @@
+SURAJ PATIL
+Pune, Maharashtra, India | +91 7218830209 | surajpatil2645@gmail.com
+LinkedIn: https://www.linkedin.com/in/suraj-patil-52a0b7287/
+GitHub: https://github.com/SurajPatil2645
+
+===================================================================
+SUMMARY
+===================================================================
+Final-year Computer Engineering student with strong hands-on experience in Full Stack Web Development (React.js, Node.js, Express.js, MongoDB) and Machine Learning (Python, Scikit-learn, Pandas). Proven track record of building real-time applications, secure backend systems with ACID transactions, automated vulnerability monitoring pipelines, and predictive ML models. Consistently high academic achiever (9.22 TE CGPA) seeking Software Engineering opportunities.
+
+===================================================================
+TECHNICAL SKILLS
+===================================================================
+• Languages: JavaScript (ES6+), Python, C++
+• Frontend: React 19, HTML5, CSS3, Tailwind CSS, DaisyUI, Zustand, Vite, Axios
+• Backend: Node.js, Express.js, RESTful APIs, Socket.IO (WebSockets), JWT Authentication, OAuth2
+• Databases: MongoDB, Mongoose (ACID Transactions), MySQL
+• AI / Machine Learning: Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn, Supervised & Unsupervised ML, K-Means Clustering
+• Tools & Services: Git, GitHub, Postman, VS Code, Selenium, OpenPyXL, MongoDB Atlas, AWS Fundamentals, Cloudinary, Resend, Arcjet
+
+===================================================================
+PROFESSIONAL EXPERIENCE
+===================================================================
+Web Development Intern | The Developers Arena
+Jan 2026 – Mar 2026 | Remote / Hybrid
+• Developed modular, reusable React UI components and responsive layouts for an E-Commerce web application.
+• Integrated RESTful API endpoints for seamless dynamic client-side rendering and active state updates.
+• Contributed to frontend debugging, cross-device layout optimization, and quality testing across modern browsers.
+• Participated in active Git version control workflows, collaborative code reviews, and software engineering practices.
+
+===================================================================
+KEY PROJECTS
+===================================================================
+QuickChat — Real-Time Chat Platform | React 19, Node.js, Express, MongoDB, Socket.IO, Zustand, Arcjet
+• Engineered a full-stack real-time messaging application supporting instant messaging, typing indicators, user presence, read receipts, and message editing/deletion.
+• Implemented WebSockets via Socket.IO alongside Express REST routes, managing UI state efficiently with Zustand.
+• Secured authentication using JWTs in HttpOnly cookies, integrated Cloudinary for image sharing, and applied Arcjet rate limiting.
+
+Bank Transaction System | Node.js, Express.js, MongoDB, Mongoose, JWT, Nodemailer
+• Architected a secure backend banking system featuring user authentication, account management, fund transfers, and token blacklist logout.
+• Utilized MongoDB session-based ACID transactions to guarantee data consistency and atomic rollbacks during transfer failures.
+• Implemented an immutable ledger-based balance calculation model and idempotency key handling to prevent double-spending.
+
+VulnTracker — Automated OEM Vulnerability Reporting System | Python, Selenium, React, MongoDB, OpenPyXL
+• Developed an automated security monitoring system collecting CVE advisories from Microsoft, Cisco, and Google security portals.
+• Built Selenium web scrapers with regex extraction to filter Critical/High advisories, storing metrics in MongoDB.
+• Created a React admin dashboard alongside automated OpenPyXL Excel report generation and email alert notifications.
+
+CreditWise Loan Approval System & SmartCart Customer Segmentation | Python, Scikit-learn, Pandas, K-Means
+• Trained supervised classification models evaluated via Precision, Recall, and ROC-AUC for credit risk prediction.
+• Applied unsupervised K-Means clustering on RFM transaction data, optimizing clusters via Elbow Curves and Silhouette Scores.
+
+===================================================================
+EDUCATION
+===================================================================
+Bachelor of Engineering in Computer Engineering (2023 – 2027)
+Marathwada Mitra Mandal's College of Engineering (MMCOE), Pune — SPPU
+• Academic Performance: TE CGPA: 9.22 | SE CGPA: 9.16 | FE CGPA: 9.82 | Sem 6 SGPA: 9.43 | Sem 5 SGPA: 9.00
+
+===================================================================
+CERTIFICATIONS & HONORS
+===================================================================
+• Certifications: AWS Cloud Fundamentals (AWS, 2026), Data Science for Engineers (NPTEL, 2026), Database Management Systems (NPTEL, 2025), C++ Programming (Udemy, 2025).
+• Achievements: 1st Prize Winner — Dexterity Technical Event (MMCOE) | Participant — OTIS Made to Move Community Mobility Programme.

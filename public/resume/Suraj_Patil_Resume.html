@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suraj Patil — Resume</title>
+  <style>
+    @page {
+      size: letter portrait;
+      margin: 0.5in;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+      color: #1e293b;
+      background-color: #ffffff;
+      line-height: 1.45;
+      font-size: 10.5pt;
+      padding: 20px;
+      max-w: 800px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 10px;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-size: 20pt;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #0f172a;
+      margin-bottom: 4px;
+    }
+    .contact-info {
+      font-size: 9.5pt;
+      color: #334155;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+    .contact-info a {
+      color: #0284c7;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    section {
+      margin-bottom: 14px;
+    }
+    h2 {
+      font-size: 11pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #0f172a;
+      border-bottom: 1.5px solid #cbd5e1;
+      padding-bottom: 3px;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #334155;
+      font-size: 10pt;
+      text-align: justify;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 18px;
+      margin-top: 4px;
+    }
+    li {
+      margin-bottom: 3px;
+      color: #334155;
+      font-size: 9.8pt;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 4px 10px;
+      font-size: 9.8pt;
+    }
+    .skill-cat {
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-top: 6px;
+    }
+    .item-title {
+      font-weight: 700;
+      font-size: 10.5pt;
+      color: #0f172a;
+    }
+    .item-subtitle {
+      font-style: italic;
+      color: #475569;
+      font-size: 9.8pt;
+    }
+    .item-date {
+      font-size: 9.5pt;
+      font-weight: 600;
+      color: #475569;
+    }
+    .project-tech {
+      font-size: 9pt;
+      color: #0284c7;
+      font-weight: 600;
+    }
+    @media print {
+      body {
+        padding: 0;
+        max-w: 100%;
+      }
+      .no-print {
+        display: none;
+      }
+    }
+    .download-btn-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .download-btn {
+      background: #0284c7;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(2, 132, 199, 0.4);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .download-btn:hover {
+      background: #0369a1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="download-btn-container no-print">
+    <button class="download-btn" onclick="window.print()">
+      🖨️ Save / Download as PDF
+    </button>
+  </div>
+
+  <header>
+    <h1>Suraj Patil</h1>
+    <div class="contact-info">
+      <span>Pune, Maharashtra, India</span>
+      <span>•</span>
+      <span>+91 7218830209</span>
+      <span>•</span>
+      <a href="mailto:surajpatil2645@gmail.com">surajpatil2645@gmail.com</a>
+      <span>•</span>
+      <a href="https://www.linkedin.com/in/suraj-patil-52a0b7287/" target="_blank">LinkedIn Profile</a>
+      <span>•</span>
+      <a href="https://github.com/SurajPatil2645" target="_blank">GitHub Profile</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p>
+      Final-year Computer Engineering student with strong hands-on experience in <strong>Full Stack Web Development</strong> (React.js, Node.js, Express.js, MongoDB) and <strong>Machine Learning</strong> (Python, Scikit-learn, Pandas). Proven track record of building real-time applications, secure backend systems with ACID transactions, automated vulnerability monitoring pipelines, and predictive ML models. Consistently high academic achiever (<strong>9.22 TE CGPA</strong>) seeking Software Engineering opportunities.
+    </p>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <span class="skill-cat">Languages:</span>
+      <span>JavaScript (ES6+), Python, C++</span>
+      <span class="skill-cat">Frontend:</span>
+      <span>React 19, HTML5, CSS3, Tailwind CSS, DaisyUI, Zustand, Vite, Axios</span>
+      <span class="skill-cat">Backend:</span>
+      <span>Node.js, Express.js, RESTful APIs, Socket.IO (WebSockets), JWT Authentication, OAuth2</span>
+      <span class="skill-cat">Databases:</span>
+      <span>MongoDB, Mongoose (ACID Transactions), MySQL</span>
+      <span class="skill-cat">AI / ML:</span>
+      <span>Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn, Supervised & Unsupervised ML, K-Means Clustering</span>
+      <span class="skill-cat">Tools & Services:</span>
+      <span>Git, GitHub, Postman, VS Code, Selenium, OpenPyXL, MongoDB Atlas, AWS Fundamentals, Cloudinary, Resend, Arcjet</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+    <div class="item-header">
+      <div>
+        <span class="item-title">Web Development Intern</span> — <span class="item-subtitle">The Developers Arena</span>
+      </div>
+      <span class="item-date">Jan 2026 – Mar 2026</span>
+    </div>
+    <ul>
+      <li>Developed modular, reusable React UI components and responsive layouts for an E-Commerce web application.</li>
+      <li>Integrated RESTful API endpoints for seamless dynamic client-side rendering and active state updates.</li>
+      <li>Contributed to frontend debugging, cross-device layout optimization, and quality testing across modern browsers.</li>
+      <li>Participated in active Git version control workflows, collaborative code reviews, and software engineering practices.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Key Projects</h2>
+    
+    <div class="item-header">
+      <div>
+        <span class="item-title">QuickChat — Real-Time Chat Platform</span>
+        <span class="project-tech">| React 19, Node.js, Express, MongoDB, Socket.IO, Zustand, Arcjet</span>
+      </div>
+    </div>
+    <ul>
+      <li>Engineered a full-stack real-time messaging application supporting instant messaging, typing indicators, user presence, read receipts, and message editing/deletion.</li>
+      <li>Implemented WebSockets via Socket.IO alongside Express REST routes, managing UI state efficiently with Zustand.</li>
+      <li>Secured authentication using JWTs in HttpOnly cookies, integrated Cloudinary for image sharing, and applied Arcjet rate limiting.</li>
+    </ul>
+
+    <div class="item-header" style="margin-top: 8px;">
+      <div>
+        <span class="item-title">Bank Transaction System</span>
+        <span class="project-tech">| Node.js, Express.js, MongoDB, Mongoose, JWT, Nodemailer</span>
+      </div>
+    </div>
+    <ul>
+      <li>Architected a secure backend banking system featuring user authentication, account management, fund transfers, and token blacklist logout.</li>
+      <li>Utilized MongoDB session-based <strong>ACID transactions</strong> to guarantee data consistency and atomic rollbacks during transfer failures.</li>
+      <li>Implemented an immutable ledger-based balance calculation model and idempotency key handling to prevent double-spending.</li>
+    </ul>
+
+    <div class="item-header" style="margin-top: 8px;">
+      <div>
+        <span class="item-title">VulnTracker — Automated OEM Vulnerability Reporting System</span>
+        <span class="project-tech">| Python, Selenium, React, MongoDB, OpenPyXL</span>
+      </div>
+    </div>
+    <ul>
+      <li>Developed an automated security monitoring system collecting CVE advisories from Microsoft, Cisco, and Google security portals.</li>
+      <li>Built Selenium web scrapers with regex extraction to filter Critical/High advisories, storing metrics in MongoDB.</li>
+      <li>Created a React admin dashboard alongside automated OpenPyXL Excel report generation and email alert notifications.</li>
+    </ul>
+
+    <div class="item-header" style="margin-top: 8px;">
+      <div>
+        <span class="item-title">CreditWise Loan Approval System & SmartCart Customer Segmentation</span>
+        <span class="project-tech">| Python, Scikit-learn, Pandas, NumPy, K-Means</span>
+      </div>
+    </div>
+    <ul>
+      <li>Trained supervised classification models (Logistic Regression, Random Forest) evaluated via Precision, Recall, and ROC-AUC for credit risk prediction.</li>
+      <li>Applied unsupervised K-Means clustering on RFM transaction data, optimizing clusters via Elbow Curves and Silhouette Scores.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="item-header">
+      <div>
+        <span class="item-title">Bachelor of Engineering in Computer Engineering</span>
+      </div>
+      <span class="item-date">2023 – 2027</span>
+    </div>
+    <div class="item-subtitle">Marathwada Mitra Mandal's College of Engineering (MMCOE), Pune — SPPU</div>
+    <ul style="margin-top: 4px;">
+      <li><strong>Academic Performance:</strong> TE CGPA: <strong>9.22</strong> | SE CGPA: <strong>9.16</strong> | FE CGPA: <strong>9.82</strong> | Sem 6 SGPA: <strong>9.43</strong> | Sem 5 SGPA: <strong>9.00</strong></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Certifications & Honors</h2>
+    <ul>
+      <li><strong>Certifications:</strong> AWS Cloud Fundamentals (AWS, 2026), Data Science for Engineers (NPTEL, 2026), Database Management Systems (NPTEL, 2025), C++ Programming (Udemy, 2025).</li>
+      <li><strong>Achievements:</strong> 1st Prize Winner — Dexterity Technical Event (MMCOE) | Participant — OTIS Made to Move Community Mobility Programme.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
